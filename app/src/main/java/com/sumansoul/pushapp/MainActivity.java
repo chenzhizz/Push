@@ -1,4 +1,4 @@
-package com.sumansoul.push;
+package com.sumansoul.pushapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
