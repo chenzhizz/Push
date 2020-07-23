@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huwei_push_client">com.sumansoul.sspush.huawei.HuaWeiPushClient</string>
+</resources>

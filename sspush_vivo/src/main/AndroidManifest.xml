@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumansoul.sspush.vivo">
+    <uses-permission     android:name="android.permission.INTERNET"/>
+    <application>
+
+        <!-- Vivo Push需要配置的service、activity -->
+        <service
+            android:name="com.vivo.push.sdk.service.CommandClientService"
+            android:exported="true" /> <!-- Vivo Push开放平台中应用的appid 和api key -->
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value="${VIVOPUSH_APPKEY}" />
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value="${VIVOPUSH_APPID}" />
+
+
+        <receiver
+            android:name=".VivoPushReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action   android:name="com.vivo.pushclient.action.RECEIVE"   />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

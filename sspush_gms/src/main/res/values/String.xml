@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fcm_push_client">com.sumansoul.sspush.gms.FcmPushClient</string>
+</resources>

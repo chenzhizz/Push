@@ -1,0 +1,25 @@
+
+<resources>
+
+    <string name="xiaomi_push_client">com.sumansoul.sspush.xiaomi.XiaoMiPushClient</string>
+
+    <string name="xiaomi_register_success">注册成功</string>
+    <string name="xiaomi_register_fail">注册失败 %1$s.</string>
+    <string name="xiaomi_unregister_success">取消注册成功</string>
+    <string name="xiaomi_unregister_fail">取消注册失败 %1$s.</string>
+    <string name="xiaomi_set_alias_success"> 设置别名\"%1$s\" 成功</string>
+    <string name="xiaomi_set_alias_fail"> 设置别名 %1$s 失败</string>
+    <string name="xiaomi_unset_alias_success"> 使用别名 \"%1$s\" 成功</string>
+    <string name="xiaomi_unset_alias_fail"> 使用别名 %1$s失败</string>
+    <string name="xiaomi_set_account_success"> 设置账户 \"%1$s\" 成功</string>
+    <string name="xiaomi_set_account_fail"> 设置账户 %1$s1$s 失败</string>
+    <string name="xiaomi_unset_account_success"> 使用账户 \"%1$s\" 成功.</string>
+    <string name="xiaomi_unset_account_fail"> 使用账户 %1$s 失败</string>
+    <string name="xiaomi_subscribe_topic_success"> Subscribe topic \"%1$s\" success.</string>
+    <string name="xiaomi_subscribe_topic_fail"> Subscribe topic fail for %1$s.</string>
+    <string name="xiaomi_unsubscribe_topic_success"> Unsubscribe topic \"%1$s\" success.</string>
+    <string name="xiaomi_unsubscribe_topic_fail"> Unsubscribe topic fail for %1$s.</string>
+    <string name="xiaomi_set_accept_time_success"> Set accept time %1$s - %2$s success.</string>
+    <string name="xiaomi_set_accept_time_fail"> Set accept time fail for %1$s.</string>
+
+</resources>

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+
+
+        buildConfigField "String", "OPPOPUSH_APPID", "\"${oppopush_appid}\""
+        buildConfigField "String", "OPPOPUSH_APPKEY", "\"${oppopush_appkey}\""
+        buildConfigField "String", "OPPOPUSH_APPSECRET", "\"${oppopush_appsecret}\""
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation project(path: ':sspush-core')
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation(name: 'com.heytap.msp-push-2.1.0', ext: 'aar')
+}

@@ -1,0 +1,21 @@
+ext {
+    main_packagename = "com.sumansoul.student"
+    applicationId = "com.sumansoul.student"
+    jpush_appkey = "d7c1deb4385e3b00761a5ab7"
+    jpush_channel = "default_developer"
+
+    huaweipush_appid = "100972627"
+
+    vivopush_appkey = "8ed5eccd66eac77998986d545dad769b"
+    vivopush_appid = "101793384"
+
+    xiaomipush_appid = "2882303761518080434"
+    xiaomipush_appkey = "5381808030434"
+
+    oppopush_appid = "30151019"
+    oppopush_appkey = "2861b13870ce425394a4a4adc6559966"
+    oppopush_appsecret = "baffdc36ed74473899e4296b97405be6"
+
+    meizupush_appkey = "ae5adce01f6c4fbe9b39d9f7ae3fc1de"
+    meizupush_appid = "123037"
+}
