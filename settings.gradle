@@ -1,2 +1,9 @@
-include ':app'
-rootProject.name = "PushApplication"
+
+include ':app',
+        ':sspush-core',
+        ':sspush_huawei',
+        ':sspush_xiaomi',
+        ':sspush_oppo',
+        ':sspush_vivo',
+        ':sspush_gms',
+        ':sspush_jpush'

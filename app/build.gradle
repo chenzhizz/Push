@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.sumansoul.push"
-        minSdkVersion 17
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -29,5 +29,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+   // implementation 'com.github.chenzhizz:Push:sspush-core:v1.0.0'
 
+    implementation project(path: ':sspush-core')
+    implementation project(path: ':sspush_huawei')
+    implementation project(path: ':sspush_xiaomi')
+    implementation project(path: ':sspush_oppo')
+    implementation project(path: ':sspush_vivo')
+    implementation project(path: ':sspush_gms')
+    implementation project(path: ':sspush_jpush')
 }

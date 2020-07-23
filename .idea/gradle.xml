@@ -11,6 +11,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/sspush-core" />
+            <option value="$PROJECT_DIR$/sspush_gms" />
+            <option value="$PROJECT_DIR$/sspush_huawei" />
+            <option value="$PROJECT_DIR$/sspush_jpush" />
+            <option value="$PROJECT_DIR$/sspush_oppo" />
+            <option value="$PROJECT_DIR$/sspush_vivo" />
+            <option value="$PROJECT_DIR$/sspush_xiaomi" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
